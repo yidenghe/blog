@@ -1,0 +1,231 @@
+/* 全局样式 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,div,button{
+    margin:0; padding:0;
+}
+body{
+    background:#fff;color:#333;font-size:16px;margin:5px 0;font-family:"Microsoft JhengHei","SimSun","宋体","Arial Narrow";
+}
+ul,ol,li,button,input{
+    list-style-type:none;
+}
+.button{
+	border: none;
+}
+select,input,img,select{
+    vertical-align:middle;
+}
+
+a{text-decoration:none;}
+a:link{color:#000;}
+a:visited{color:#000;}
+a:hover,a:active,a:focus{color:#666;text-decoration:underline;} 
+dt{
+	font-size: 1.2rem;
+
+}
+.clear{clear:both; height: 0; line-height: 0; font-size: 0}
+blockquote{
+	text-indent: 2em;
+	background: #f3f3f3;
+	padding: 10px 2em;
+	margin:10px 0;
+}
+/* 局部样式 */
+
+#main{
+	width: 1200px;
+	margin: 0 auto;
+	min-width: 780px;
+	max-width: 1260px;
+}
+.nav{
+	
+	height: 70px;
+	border: 1px solid #999;
+	line-height: 70px;
+	padding: 0 20px;
+}
+.l_nav{
+	float: left;
+	width: 30%;
+}
+.l_nav h1 a{
+	font-size: 2rem;	
+}
+
+
+.r_nav span{
+     float: right;
+     height: 70px;
+}
+.text_s{
+	width: 280px;
+	height: 28px;
+}
+.search{
+	height: 32px;
+	line-height: 32px;
+	padding:3px 5px 0 5px;
+	border: none;
+	background: #fff;
+
+
+}
+.search:hover{
+	color: #333;
+	cursor:pointer;
+}
+.search i{
+     font-size: 1.6rem;
+}
+.r_nav li{
+	float: left;
+	margin-right: 30px;
+}
+.nav a{
+	font-size: 1.5rem;
+}
+.post{
+	
+	margin-top: 20px;
+	overflow: hidden;
+
+}
+.post.list{
+	
+	margin:20px 20px;
+
+
+}
+
+
+.post_l{
+	width: 778px;
+	
+	float: left;
+	border: 1px solid #999;
+	padding: 20px 20px;
+
+	
+}
+.info{
+	margin-top: 40px;
+}
+.pnext{
+	text-align: center;
+    margin-top: 30px;
+}
+.pnext span{
+	margin: 0px auto;
+	font-size:1rem;
+}
+.post_l li{
+	height: 30px;
+	line-height: 30px;
+
+}
+.post_l li a{
+	font-size: 1.2rem;
+	
+
+}
+.post_r{
+	width: 318px;
+	float:right;
+	border: 1px solid #999;
+	padding: 20px 20px;
+
+}
+.post_r_sidebar{
+	margin-bottom: 10px;
+}
+.post_r_t{
+	font-size: 1.2rem;
+}
+.post_r_a li{
+    height: 28px;
+    line-height: 28px;
+}
+.post_a{
+	float: left;
+	width: 820px
+
+}
+.post_a h2{
+	font-size: 1.5rem;
+    text-align: center; 
+    margin-bottom: 20px;   
+}
+.post_a p{
+	text-indent:2em;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.comments{
+    width: 778px;
+    border: 1px solid #999;
+	float: left;
+	margin-top: 10px;
+	padding: 20px 20px;
+}
+.comments ul{
+	border: 1px solid #999;
+	padding: 5px;
+	margin:5px 0;
+}
+.c_user{
+
+height: 40px;
+
+}
+.msgarticle{
+	margin: 20px 5px;
+}
+.commentpost{
+	padding: 10px 0;
+	border-top: 1px dashed #999;
+}
+.text_c{
+	width: 500px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+
+
+.button{
+height: 35px;
+line-height:35px;
+padding: 0 10px;
+width: 500px;
+margin: 10px 0;
+background: #f3f3f3;
+}
+.button:hover{
+	background: #DBDBDB;
+}
+
+
+.pagebar{
+	font-size: 1rem;
+	height: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+.pagebar span{
+	border: 1px solid #999;
+	padding: 5px 10px;
+	margin: 20px auto;
+}	
+.footer{
+	
+	height: 70px;
+	line-height: 70px;
+	border: 1px solid #999;
+	margin-top: 20px;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+
+}
